@@ -8,6 +8,7 @@ void test_lis_solver_dp();
 void test_lp();
 void test_backpack01();
 void test_traverse_list();
+void test_link_list();
 
 int main(int argc, char* argv[]) {
     std::cout << "entering main..." << std::endl;
@@ -19,4 +20,5 @@ int main(int argc, char* argv[]) {
     test_lp();
     test_backpack01();
     test_traverse_list();
+    test_link_list();
 }

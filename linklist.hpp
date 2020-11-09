@@ -3,11 +3,11 @@
 template <class T>
 class ListNode
 {
-private:
+public:
     T val;
     ListNode* p_next;
 public:
-    ListNode(T _val, ListNode* next)
+    explicit ListNode(T _val, ListNode* next = nullptr)
         : val(_val), p_next(next)
         {}
 };
